@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SliderView">
+        <attr name="sl_backgroundColor" format="color|reference"/>
+        <attr name="sl_textSize" format="dimension"/>
+        <attr name="sl_textColor" format="color|reference"/>
+        <attr name="sl_text" format="string|reference"/>
+        <attr name="sl_height" format="dimension|reference"/>
+    </declare-styleable>
+
+</resources>
