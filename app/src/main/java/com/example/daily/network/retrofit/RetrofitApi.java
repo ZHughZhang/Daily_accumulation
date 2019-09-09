@@ -86,10 +86,9 @@ public class RetrofitApi {
         builder.readTimeout(Constant.DEFAULT_TIME, TimeUnit.SECONDS)
                 .writeTimeout(Constant.DEFAULT_TIME,TimeUnit.SECONDS)
                 .connectTimeout(Constant.DEFAULT_TIME+10,TimeUnit.SECONDS)
+                //超时重新连
+                .retryOnConnectionFailure(true)
                 .addInterceptor(new LoggInterceptor());
-
-
-
         OkHttpClient okHttpClient = builder.build();
         return okHttpClient;
     }

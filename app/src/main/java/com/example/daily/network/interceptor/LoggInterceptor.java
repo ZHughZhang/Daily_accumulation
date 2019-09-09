@@ -18,7 +18,7 @@ import okhttp3.ResponseBody;
  * Author: zlq
  * CreateDate: 2019-09-05 09:18
  * Version: 1.0
- * Desc: java 文件描述
+ * Desc: 日志拦截器
  **/
 public class LoggInterceptor implements Interceptor {
     private static final String TAG = LoggInterceptor.class.getName();

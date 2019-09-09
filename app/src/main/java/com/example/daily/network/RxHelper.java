@@ -24,7 +24,7 @@ import io.reactivex.schedulers.Schedulers;
  * Author: zlq
  * CreateDate: 2019-09-05 15:12
  * Version: 1.0
- * Desc: java 文件描述
+ * Desc: Transformer
  **/
 public class RxHelper {
 

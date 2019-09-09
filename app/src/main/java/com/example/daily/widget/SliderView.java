@@ -164,7 +164,6 @@ public class SliderView extends View {
                 if (mCanMove) {
                     //reset();
                     mCanMove = false;
-                    Log.e("onTouchEvent ","mDrawX:"+mDrawX);
                     //判断是否在指定位置抬起手指
                     if (mDrawX >= mWidth-radius-mPadding) {
                         unSlide = true;
